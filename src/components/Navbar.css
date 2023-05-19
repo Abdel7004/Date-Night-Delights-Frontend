@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid gray;
+  }
+  
+  .logo {
+    display: inline-block;
+  }
+  
+  .nav-items {
+    display: flex;
+  }
+  
+  .nav-items a {
+    margin-left: 5px;
+  }

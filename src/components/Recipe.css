@@ -1,0 +1,14 @@
+.recipe {
+    text-align: center;
+    border: solid 2px blue;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .food {
+    border: solid 2px black;
+    border-radius: 50%;
+    width: 250px;
+    height: 232px;
+    object-fit: cover; /* This one's kinda like background-size:cover but for imgs 🖌️🎨*/
+  }
