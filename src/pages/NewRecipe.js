@@ -35,7 +35,7 @@ function NewRecipe() {
     };
 
     const responseData = await fetch(
-      "https://people-api-qn7s.onrender.com/people/",
+      "http://localhost:4000/",
       options
     );
 

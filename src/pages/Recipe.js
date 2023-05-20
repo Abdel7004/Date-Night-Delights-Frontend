@@ -9,7 +9,7 @@ function Recipe() {
 
   const { id } = useParams();
   console.log(useParams());
-  const url = `https://people-api-qn7s.onrender.com/people/${id}`; //fetch a person by id this will reach our server.
+  const url = `http://localhost:4000/${id}`; //fetch a person by id this will reach our server.
 
   //useeffect will only run once []
   useEffect(() => {

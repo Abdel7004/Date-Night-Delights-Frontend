@@ -2,7 +2,7 @@
 
 Date Night Delights is a recipe listings page that allows users to view and manage various recipes you might want to use for date night to impress your partner. Users can easily browse the available recipe listings and can also create, modify, and delete listings as per their requirement.
 
-To get started with Date Night Delights, simply visit the homepage and start exploring the available recipe listings. Users can also add, modify, or delete listings as per their needs.
+To get started with Date Night Delights, simply visit the homepage and start exploring the available recipe listings. Users can also add, modify, or delete listings as per their needs
 
 ### Explore Date Night Delights
 URL :

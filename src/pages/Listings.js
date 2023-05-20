@@ -7,7 +7,7 @@ import Recipe from "../components/Recipe";
 function Listings() {
   const [listings, setListings] = useState(null);
 
-  const URL = "https://people-api-qn7s.onrender.com/peop/";
+  const URL = "http://localhost:4000/";
 
   useEffect(() => {
     //useeffect will render once when the compon is mounted.

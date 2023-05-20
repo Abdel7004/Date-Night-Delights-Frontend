@@ -10,7 +10,7 @@ function UpdateRecipe() {
   const { id } = useParams();
   const navigate = useNavigate();
 
-  const url = `https://people-api-qn7s.onrender.com/people/${id}`;
+  const url = `http://localhost:4000/${id}`;
   //---------fetch data here
   useEffect(() => {
     const fetchRecipe = async () => {
@@ -111,7 +111,7 @@ function UpdateRecipe() {
         />
         <input
           type="text"
-          value={ingeredientsState}
+          value={ingredientsState}
           name="ingredients"
           placeholder="ingredients"
           onChange={(e) => onChangeHandler(e, setIngredientsState)}
